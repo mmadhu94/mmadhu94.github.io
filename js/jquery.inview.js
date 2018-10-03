@@ -1,6 +1,6 @@
 /**
  * author Remy Sharp
- * url http://remysharp.com/2009/01/26/element-in-view-event-plugin/
+ * url https://remysharp.com/2009/01/26/element-in-view-event-plugin/
  */
 (function ($) {
     function getViewportHeight() {
