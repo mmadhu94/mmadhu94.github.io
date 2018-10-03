@@ -42,11 +42,14 @@ jQuery(document).ready(function($) {
 jQuery(document).ready(function($) {
 	"use strict";
 	$('.skills-info').appear(function() {
-	$('.skill1').css('width', '71%');
-	$('.skill2').css('width', '85%');
-	$('.skill3').css('width', '76%');
-	$('.skill4').css('width', '53%');
-	$('.skill5').css('width', '69%');
+	$('.skill1').css('width', '90%');
+	$('.skill2').css('width', '95%');
+	$('.skill3').css('width', '88%');
+	$('.skill4').css('width', '84%');
+	$('.skill5').css('width', '81%');
+  $('.skill6').css('width', '77%');
+  $('.skill7').css('width', '71%');
+  $('.skill8').css('width', '63%');
 	},{accX: 0, accY: -150});
 });
 
@@ -57,7 +60,7 @@ $(function () {
 	el: "#map",
 	lat: 40.714353,
 	lng: -74.005973,
-          zoom: 15, 
+          zoom: 15,
           zoomControl : true,
           zoomControlOpt: {
             style : "BIG",
@@ -68,7 +71,7 @@ $(function () {
           mapTypeControl: false,
           overviewMapControl: false
       });
-        
+
       var styles = [
             {
               stylers: [
@@ -77,13 +80,13 @@ $(function () {
               ]
             }
       ];
-        
+
       map.addStyle({
             styledMapName:"Styled Map",
             styles: styles,
-            mapTypeId: "map_style"  
+            mapTypeId: "map_style"
       });
-        
+
       map.setStyle("map_style");
 
       map.addMarker({
@@ -92,4 +95,3 @@ $(function () {
         icon: "images/marker.png"
       });
 });
-
